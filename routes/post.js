@@ -7,3 +7,4 @@ module.exports = (app=>{
     app.put('/posts/:id',updatepost)
     app.delete('/posts/:id',deletePost)
 })
+// branching
