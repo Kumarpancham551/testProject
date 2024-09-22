@@ -5,9 +5,9 @@ return res.send("Hello, World!");
 };
 exports.addUser = async (req, res) => {
   try {
-    let {nmae,email,age} = req.body
+    let {name,email,age} = req.body
     const user = new User({
-      name: email,
+      name: name,
       email: email,
       age: age
     });

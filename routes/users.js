@@ -2,7 +2,7 @@ const {test,addUser,getUsers,getUsersByEmail} = require("../controllers/users")
 
 module.exports = (app=>{
     app.get("/",test);
-    app.post("/test/addUser",addUser);
-    app.get("/test/users",getUsers);
-    app.get('/test/users/email/:email',getUsersByEmail)
+    app.post("/addUser",addUser);
+    app.get("/users",getUsers);
+    app.get('/users/email/:email',getUsersByEmail)
 })
